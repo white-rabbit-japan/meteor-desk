@@ -7,13 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.addFiles('whiterabbit:desk.js');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('whiterabbit:desk');
-  api.addFiles('whiterabbit:desk-tests.js');
+  api.addFiles('desk.js');
 });
 
 Npm.depends({
